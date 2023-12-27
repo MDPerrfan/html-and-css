@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(6,1fr);
+            grid-gap: 4px;
+            grid-auto-columns: minmax(40px,auto);
+            grid-auto-rows: minmax(570px,auto);
+
+            
+        }
+        .items{
+            background-color: rgb(230, 14, 108);
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+            
+        }
+        #box2{
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+        }
+        .box2{
+            border: 2px solid white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+        }
+        #box3{
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+        }
+        .box3{
+            border: 2px solid white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+        }
+        #box4{
+            display: grid;
+            grid-template-rows: repeat(4,1fr);
+        }
+        .box4{
+            border: 2px solid white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+        }
+        #box5{
+            display: grid;
+            grid-template-rows: repeat(6,1fr);
+        }
+        .box5{
+            border: 2px solid white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+        }
+        #box6{
+            display: grid;
+            grid-template-rows: repeat(12,1fr);
+        }
+        .box6{
+            border: 2px solid white;
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="items">1</div>
+    <div class="items" id="box2">
+        <div class="box2">2</div>
+        <div class="box2">3</div>
+    </div>
+    <div class="items" id="box3">
+         <div class="box3">4</div>
+         <div class="box3">5</div>
+         <div class="box3">6</div>
+    </div>
+    <div class="items" id="box4">
+        <div class="box4">7</div>
+        <div class="box4">8</div>
+        <div class="box4">9</div>
+        <div class="box4">10</div>
+    </div>
+    <div class="items"id="box5">
+        <div class="box5">11</div>
+        <div class="box5">12</div>
+        <div class="box5">13</div>
+        <div class="box5">14</div>
+        <div class="box5">15</div>
+        <div class="box5">16</div>
+    </div>
+    <div class="items"id="box6">
+        <div class="box6">17</div>
+        <div class="box6">18</div>
+        <div class="box6">19</div>
+        <div class="box6">20</div>
+        <div class="box6">21</div>
+        <div class="box6">22</div>
+        <div class="box6">23</div>
+        <div class="box6">24</div>
+        <div class="box6">25</div>
+        <div class="box6">26</div>
+        <div class="box6">27</div>
+        <div class="box6">28</div>
+    </div>
+</div>
+</body>
+</html>
